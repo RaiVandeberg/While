@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+.corpo{
+    color: aliceblue;
+    justify-items: center;
+    margin-top: 100px;
+}
+
+.one{
+    display: flex;
+    margin-bottom: 4px;
+    margin-top: 5px;
+    font-size: medium;
+    background-color: rgb(145, 0, 143);
+    color: azure;
+    border-radius: 10%;
+    border:none;
+    
+}
+
+#n1{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#n2{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+}
