@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de repetição</title>
+
+    <script>
+
+
+        const qts = prompt('Quantas notas?')
+        let nota = 0
+        let soma = 0
+
+        for(let contador = 1; contador <=qts; contador++){
+            nota = Number (prompt('Digite a nota' + contador))
+            soma = soma + nota
+
+            
+        }
+        const media = soma / qts
+
+        console.log('A média final é' + media)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
