@@ -11,12 +11,15 @@ body{
 .one{
     display: flex;
     margin-bottom: 4px;
-    margin-top: 5px;
-    font-size: medium;
+    margin-top: 7px;
+    font-size: large;
     background-color: rgb(145, 0, 143);
     color: azure;
-    border-radius: 10%;
+    border-radius: 5%;
     border:none;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
     
 }
 
