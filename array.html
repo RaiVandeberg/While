@@ -27,10 +27,12 @@
     carros.push("Fiesta")
     carros.unshift("Palio")
 
-    
+
+    carros.splice(1, 0, "Uno")
     console.table(carros)
 
-    carros.splice(1, 1, "Uno")
+    carros.sort()
+
     console.table(carros)
 
     </script>
