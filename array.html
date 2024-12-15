@@ -24,17 +24,13 @@
         }
        */
 
-    console.table(carros)
-
     carros.push("Fiesta")
-    console.table(carros)
-
     carros.unshift("Palio")
+
+    
     console.table(carros)
 
-    carros.shift()
-    carros.shift()
-    carros.shift()
+    carros.splice(1, 1, "Uno")
     console.table(carros)
 
     </script>
